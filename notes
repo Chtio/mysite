@@ -1,0 +1,10 @@
+superuser name  :   admin
+superuser pw    :   azerty
+
+# commandes usuelles :
+django-admin.py startproject mysite     créé un projet
+manage.py runserver                     démarre le serveur web integré (http://127.0.0.1:8000/)
+manage.py syncdb                        synchronise la base avec les apps
+manage.py startapp polls                créé une app
+manage.py sql polls                     affiche le sql généré d'après les modèles de l'app
+manage.py sqlall polls                  affiche le sql, les requêtes perso (sqlcustom) et les requêtes CREATE_INDEX (sqlindexes) générés pour cette app
