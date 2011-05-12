@@ -8,3 +8,9 @@ manage.py syncdb                        synchronise la base avec les apps
 manage.py startapp polls                créé une app
 manage.py sql polls                     affiche le sql généré d'après les modèles de l'app
 manage.py sqlall polls                  affiche le sql, les requêtes perso (sqlcustom) et les requêtes CREATE_INDEX (sqlindexes) générés pour cette app
+manage.py shell                         lance la console intéractive Python et configure l'environnement
+
+
+# database API :
+voir http://docs.djangoproject.com/en/1.3/intro/tutorial01/#playing-with-the-api et http://docs.djangoproject.com/en/1.3/topics/db/queries/
+
